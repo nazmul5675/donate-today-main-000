@@ -234,33 +234,32 @@ body {
 }
 
 .update-input {
+    display: flex;
     background: rgba(255, 244, 214, 1);
     padding: 76px 194px;
     margin-bottom: 130px;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .update-input input {
-    padding: 20px;
-    height: 48px;
-    width: 275px;
+    background: rgba(170, 159, 159, 1);
+    color: white;
+    max-height: 56px;
+    padding: 17px;
+    width: 475px;
     border: none;
-    border: .5px solid transparent
+    border: .5px solid transparent;
+    margin-right: -3px;
+    align-items: center;
+    position: relative;
 }
 
 .update-input input:focus {
     border: .5px solid transparent;
 }
 
-.update-input-btn {
-    background-color: rgba(255, 89, 89, 1);
-    color: white;
-    border: none;
-    font-size: 1.25rem;
-    font-weight: 600;
-    padding: 15px;
-    cursor: pointer;
-}
+
 
 
 /* footer */
@@ -387,6 +386,22 @@ footer p {
         max-width: 400px;
         max-height: 360px;
         margin-bottom: 20px;
+    }
+
+    /* update-input */
+    .update-text {
+        margin-top: 60px;
+    }
+
+    .update-input {
+        margin-bottom: 60px;
+    }
+
+    .update-input input {
+        padding: 0px;
+        height: 48px;
+        width: 175px;
+        border: .5px solid transparent;
     }
 
 
