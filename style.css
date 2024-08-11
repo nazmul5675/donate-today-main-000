@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(18, 18, 18, 0), rgba(18, 18, 18, 1)), url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    background-size: cover;
+    padding: 175px 307px 175px 307px;
+}
+
+.banner-title {
+    font-size: 4.0626rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-p {
+    font-size: 1.125rem;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+
+.banner-btn {
+    background-color: rgba(255, 89, 89, 1);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    max-width: 160px;
+    max-height: 56px;
+    padding: 15px;
+}
+
+@media only screen and (max-width:576px) {
+    .banner {
+        max-width: 576px;
+        padding: 50px;
+    }
+
+    .banner-title {
+        font-size: 1.5rem;
+    }
+
+    .banner-p {
+        font-size: .875rem;
+    }
+
+    .banner-btn {
+        font-size: .875rem;
+    }
+}
