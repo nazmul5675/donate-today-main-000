@@ -215,6 +215,72 @@ body {
     margin-bottom: 30px;
 }
 
+/* update */
+.update-text {
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
+.update-text h1 {
+    font-weight: 700px;
+    font-size: 2.8125rem;
+    margin-bottom: 20px;
+}
+
+.update-text p {
+    font-weight: 400px;
+    font-size: 1.125rem;
+}
+
+.update-input {
+    background: rgba(255, 244, 214, 1);
+    padding: 76px 194px;
+    margin-bottom: 130px;
+    text-align: center;
+}
+
+.update-input input {
+    padding: 20px;
+    height: 48px;
+    width: 275px;
+    border: none;
+    border: .5px solid transparent
+}
+
+.update-input input:focus {
+    border: .5px solid transparent;
+}
+
+.update-input-btn {
+    background-color: rgba(255, 89, 89, 1);
+    color: white;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 15px;
+    cursor: pointer;
+}
+
+
+/* footer */
+footer {
+    background: rgba(11, 13, 23, 1);
+    text-align: center;
+    padding-top: 45px;
+    padding: 45px;
+}
+
+footer h1 {
+    font-size: 2.25rem;
+    color: rgba(255, 89, 89, 1);
+}
+
+footer p {
+    font-size: .725rem;
+    color: rgba(217, 219, 225, 1);
+}
+
 
 
 @media only screen and (max-width:576px) {
