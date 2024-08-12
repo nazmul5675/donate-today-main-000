@@ -255,6 +255,12 @@ body {
     position: relative;
 }
 
+.update-input input::placeholder {
+    color: white;
+    opacity: 1;
+
+}
+
 .update-input input:focus {
     border: .5px solid transparent;
 }
@@ -398,10 +404,7 @@ footer p {
     }
 
     .update-input input {
-        padding: 0px;
-        height: 48px;
-        width: 175px;
-        border: .5px solid transparent;
+        padding: 14.5px;
     }
 
 
