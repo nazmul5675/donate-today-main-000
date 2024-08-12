@@ -389,9 +389,9 @@ footer p {
     }
 
     .content-box-img img {
-        max-width: 400px;
+        max-width: 300px;
         max-height: 360px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     /* update-input */
@@ -401,10 +401,12 @@ footer p {
 
     .update-input {
         margin-bottom: 60px;
+        padding: 76px 80px;
     }
 
     .update-input input {
         padding: 14.5px;
+        width: 145px;
     }
 
 
